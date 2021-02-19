@@ -1,10 +1,10 @@
-//********************//
-// BODY FUNCTIONS
-//********************//
-
 /**
 Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
 **/
+
+//********************//
+// BODY FUNCTIONS
+//********************//
 
 // Function for if division were allowed
 // Time complexity: O(n)
@@ -23,7 +23,7 @@ func productsDivision(input:[Int]) -> [Int]
 	// For every item in the array
 	for index in (0..<input.count)
 	{
-		// Take the product of everything using reduce, which is a O(n)
+		// Take the quotient of the total product with what's at input[index], which is a O(n)
 		resultant.append(product / input[index])
 	}
 	
