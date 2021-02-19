@@ -1,3 +1,7 @@
+/**
+Given four arrays of integers representing prices, compute the different number of ways to buy something from each array without going over a certain budget.
+**/
+
 //********************//
 // BODY FUNCTIONS
 //********************//
@@ -33,7 +37,7 @@ func checkPossibleCombinations(budget:Int, shoes:[Int], skirts:[Int], tops:[Int]
 }
 
 // Iteratively creates an array with all possible combinations of arrays passed in
-// For fun, make this a generic
+// For fun (i.e. so we can reuse this anywhere else later), make this a generic
 
 func combinations<T>(of array:[[T]]) -> [[T]]
 {
