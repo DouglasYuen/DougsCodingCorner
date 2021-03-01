@@ -17,3 +17,7 @@ This is a simple way to find the number of repeated elements in an abitrary arra
 ## BinaryStringMatching
 
 This function determines how many occurances of a given substring matching a binary pattern are in a string. Here, the original string is first converted into a binary string, making it easier to compare the pattern against. The function runs in O(n).
+
+## Sudoku Validator
+
+This program accepts an arbitary sized Sudoku puzzle (2x2, 3x3, 4x4, etc. regions) to check if the initial layout is valid (i.e. no duplicate numbers in a given row, column and block). The program assumes that empty cells are 0s, and all input values are integers. The function currently runs in O(n^2) time.
